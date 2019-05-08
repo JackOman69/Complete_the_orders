@@ -1,10 +1,5 @@
-/* 11. Hotline */
 .hotline-area {
     color: $light;
-    background-image: url('../images/hotline-bg.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     position: relative;
     z-index: 1;
     &:after {
@@ -24,11 +19,11 @@
         font-size: 56px;
         font-family: $body-font;
         font-weight: 900;
-        @include landscape-phone(){
+        @include landscape-phone() {
             font-size: 45px;
         }
-        @include portrait-phone(){
-            font-size: 45px;
+        @include portrait-phone() {
+            font-size: 32px;
         }
     }
 }

@@ -22,9 +22,9 @@
             $('body').append($mobile_nav);
             $('body').prepend('<button type="button" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>');
             $('body').append('<div id="mobile-body-overly"></div>');
-            $('#mobile-nav').find('.menu-has-children').prepend('<i class="lnr lnr-chevron-down"></i>');
+            $('#mobile-nav').find('.menu-dropdown').prepend('<i class="lnr lnr-chevron-down"></i>');
 
-            $(document).on('click', '.menu-has-children i', function(e) {
+            $(document).on('click', '.menu-dropdown i', function(e) {
             $(this).next().toggleClass('menu-item-active');
             $(this).nextAll('ul').eq(0).slideToggle();
             $(this).toggleClass("lnr-chevron-up lnr-chevron-down");
@@ -114,6 +114,11 @@
             });
         
 
+        // $(document).ready(function() {
+        //     document.getElementByClassName('menu-dropdown').classList.add('fas');
+        //     document.getElementByClassName('menu-dropdown').classList.add('fa-angle-down');
+        // }
+
         // Header scroll class
         $(window).scroll(function() {
             if ($(this).scrollTop() > 100) {
@@ -124,8 +129,8 @@
         });
 
 
-        // Department Slider
-        $('.department-slider').owlCarousel({
+        // Preview Slider
+        $('.gallery-slider').owlCarousel({
             loop: true,
             margin: 10,
             autoplay: true,
@@ -149,6 +154,46 @@
                     items: 3
                 }
             }
+        });
+
+        // Classes slider
+        $('.documents-slider').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            nav: false,
+            dots: true,
+            smartSpeed: 1000,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                576: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                992: {
+                    items: 3
+                }
+            }
+        });
+
+        // Classes slider
+        $('.classes-carousel').owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            nav: false,
+            dots: true,
+            center: true,
+            smartSpeed: 1000,
+            items: 1
         });
 
         // Date Picker

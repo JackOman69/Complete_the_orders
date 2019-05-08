@@ -1,8 +1,7 @@
-/* 9. Patient */
 .patient-area {
     .single-patient  {
         background: $dark;
-        padding: 40px 80px 20px 40px;
+        padding: 40px 40px 20px 40px;
         @include transition(.5s);
         margin-top: 90px;
         &:hover {
@@ -19,16 +18,12 @@
     }
     .appointment-form {
         padding: 80px;
-        background-image: url('../images/patient.jpg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
         position: relative;
         z-index: 1;
-        @include desktop(){
+        @include desktop() {
             padding: 80px 40px;
         }
-        @include portrait-phone(){
+        @include portrait-phone() {
             padding: 40px 20px;
         }
         &:before {
@@ -40,16 +35,16 @@
             height: 110%;
             border: 10px solid $border;
             z-index: -1;
-            @include desktop(){
+            @include desktop() {
                 right: -20%;
             }
-            @include tablet(){
+            @include tablet() {
                 position: inherit;
             }
-            @include landscape-phone(){
+            @include landscape-phone() {
                 position: inherit;
             }
-            @include portrait-phone(){
+            @include portrait-phone() {
                 position: inherit;
             }
         }

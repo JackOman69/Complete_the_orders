@@ -1,4 +1,3 @@
-/* 12. News */
 .news-area {
     .news-date {
         color: $light;
@@ -16,7 +15,7 @@
         }
     }
     img {
-        @include landscape-phone(){
+        @include landscape-phone() {
             width: 100%;
         }
     }

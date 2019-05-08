@@ -1,0 +1,29 @@
+/* 17. Other */
+.section-padding {
+    padding: 130px 0;
+}
+.section-padding-top {
+    padding-top: 130px;
+}
+.section-padding-bottom {
+    padding-bottom: 130px;
+}
+.section-padding-both {
+    padding: 130px 0 200px;
+}
+.section-top {
+    margin-bottom: 80px;
+    .style-change {
+        color: $primary-color;
+        font-style: italic;
+    }
+}
+.section-bottom {
+    margin-bottom: 80px;
+    span {
+        color: $primary-color;
+    }
+}
+.item-padding {
+    padding: 40px 20px;
+}

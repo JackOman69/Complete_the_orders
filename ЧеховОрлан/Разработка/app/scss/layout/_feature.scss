@@ -1,4 +1,8 @@
-/* 6. Feature */
+.feature-area {
+    .row {
+        padding-bottom: 5px;
+    }
+}
 .single-feature {
     background: $dark;
     @include border-radius(5px);

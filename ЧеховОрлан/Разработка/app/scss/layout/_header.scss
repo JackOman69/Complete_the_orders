@@ -1,4 +1,3 @@
-/* 4. Header */
 .header-top {
     padding: 10px 0;
     background: rgba(255,255,255,.8);
@@ -15,13 +14,13 @@
           top: 2px;
         }
     }
-    @include tablet(){
+    @include tablet() {
       display: none;
     }
-    @include landscape-phone(){
+    @include landscape-phone() {
       display: none;
     }
-    @include portrait-phone(){
+    @include portrait-phone() {
       display: none;
     }
     .social-links {
@@ -52,13 +51,13 @@
     right: 0;
     transition: all 0.5s;
     z-index: 997;
-    @include tablet(){
+    @include tablet() {
       top: 0;
     }
-    @include landscape-phone(){
+    @include landscape-phone() {
       top: 0;
     }
-    @include portrait-phone(){
+    @include portrait-phone() {
       top: 0;
     }
   }

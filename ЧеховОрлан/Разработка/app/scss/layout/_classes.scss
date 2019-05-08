@@ -1,0 +1,47 @@
+.social-links {
+    ul {
+        margin-top: 5px;
+        li {
+            display: inline;
+            margin-left: 15px;
+            a {
+                color: $body-text;
+                @include transition(all .3s ease-in-out)
+                &:hover {
+                  color: $primary-color;
+                }
+            }
+        }
+    }
+}
+
+.classes-carousel {
+    height: 400px;
+    .single-patient {
+        padding: 20px 150px 40px 150px;
+    }
+    .owl-item{
+        img {
+            display: inline-block;
+        }
+    }
+    .owl-nav {
+        display: none;
+    }
+    .owl-dots {
+        display: block !important;
+        position: absolute;
+        bottom: -50px;
+        left: 50%;
+        @include translate(-50%,0);
+        .owl-dot {
+            width: 15px;
+            height: 4px;
+            background: #c6d0d4;
+            margin: 0 7px;
+        }
+        .owl-dot.active {
+            background: $primary-color;
+        }
+    }
+}

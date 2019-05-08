@@ -1,4 +1,3 @@
-/* 13. Footer */
 .footer-area {
     color: $light;
     background: $footer;
@@ -42,6 +41,21 @@
         margin-right: 5px;
         margin-bottom: 10px;
     }
+    .into-icon {
+        i {
+            font-size: 16px;
+            color: $primary-color;
+            margin-right: 16px;
+        }
+    }
+    .info-text {
+        h4 {
+            color: #fff;
+            font-family: "Museo Sans Cyrl 900",sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
 }
 .footer-copyright {
     margin-top: 70px;
@@ -60,7 +74,7 @@
         }
         li {
             display: inline;
-            margin-left: 10px;
+            margin-right: 10px;
             i {
                 display: inline-block;
                 padding: 10px;
@@ -73,7 +87,7 @@
                 @include transition(all .3s ease-in-out);
                 &:hover {
                     color: $light;
-                    background: $gradient;
+                    background: $primary-color;
                 }
             }
         }

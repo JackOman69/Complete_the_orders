@@ -1,4 +1,3 @@
-/* 3. Main Menu */
 .nav-menu, .nav-menu * {
     margin: 0;
     padding: 0;
@@ -38,37 +37,26 @@
   }
   
   
-  .menu-has-children ul li a{
+  .menu-dropdown ul li a{
     padding:4px 10px!important;
     text-transform:uppercase!important;
   }
   
-  
-  
-  // Nav Menu Arrows 
   .sf-arrows .sf-with-ul {
     padding-right: 30px;
   }
   
   .sf-arrows .sf-with-ul:after {
+  	font-family: "Font Awesome 5 Free";
+  	font-weight: 900;
     content: "\f107";
     position: absolute;
     right: 15px;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
   }
-  
-  .sf-arrows ul .sf-with-ul:after {
-    content: "\f105";
-  }
-  
-  // Nav Meu Container 
+
   #nav-menu-container {
     margin: 0;
   }
-  
- 
   
   @media (max-width: 960px) {
     #nav-menu-container {
@@ -76,7 +64,6 @@
     }
   }
   
-  // Nav Meu Styling 
   .nav-menu a {
     padding:7px 10px;
     text-decoration: none;
@@ -86,10 +73,6 @@
     font-size: 12px;
     text-transform: uppercase;
     outline: none;
-  }
-  
-  .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-    // color: $primary-color;
   }
   
   .nav-menu > li {
@@ -102,10 +85,6 @@
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     background: #fff;
   }
-  
-  
-  
-  
   
   .nav-menu ul li {
     transition: 0.3s;
@@ -203,7 +182,7 @@
     padding-left: 30px;
   }
   
-  #mobile-nav ul .menu-has-children i {
+  #mobile-nav ul .menu-dropdown i {
     position: absolute;
     right: 0;
     z-index: 99;
@@ -212,11 +191,11 @@
     color: #fff;
   }
   
-  #mobile-nav ul .menu-has-children i.fa-chevron-up {
+  #mobile-nav ul .menu-dropdown i.fa-chevron-up {
     color: $primary-color;
   }
   
-  #mobile-nav ul .menu-has-children li a {
+  #mobile-nav ul .menu-dropdown li a {
     text-transform: capitalize;
   }
   

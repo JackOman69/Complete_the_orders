@@ -1,0 +1,19 @@
+.feature-area {
+	.section-top{
+		margin-bottom: 30px;
+	}
+	.single-gallery-item {
+		margin-top: 30px;
+	    background-repeat: no-repeat !important;
+	    background-position: center center !important;
+	    background-size: cover !important;
+	    height: 200px;
+	    transition: all 0.3s ease 0s;
+	}
+	.single-gallery-item:hover {
+	 	opacity: .8;
+	}
+	.blog-pagination {
+		padding-bottom: 0;
+	}
+}
