@@ -31,6 +31,7 @@ gulp.task('browser-sync', function() { // Создаем таск browser-sync
 gulp.task('scripts', function() {
 	return gulp.src([
 			'app/libs/js/jquery-2.2.4.min.js',
+			'app/libs/js/jquery-ui.min.js',
 			'app/libs/js/bootstrap-4.1.3.min.js',
 			'app/libs/js/jquery.datetimepicker.full.min.js',
 			'app/libs/js/jquery.fancybox.min.js',
