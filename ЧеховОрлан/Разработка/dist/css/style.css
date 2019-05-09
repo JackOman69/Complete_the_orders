@@ -419,7 +419,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     .other-page a:hover {
       color: #244cfd; }
 
-.feature-area .row {
+.feature-area .row,
+.service-area .row {
   padding-bottom: 5px; }
 
 .single-feature {
