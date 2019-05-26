@@ -1,0 +1,30 @@
+Структура организации:
+
+Директор - мужчина, сидящий в кресле (https://www.flaticon.com/free-icon/boss_115878#term=boss&page=1&position=74) 
+Остальные - простая иконка человека (https://www.flaticon.com/free-icon/manager_641695#term=boss&page=1&position=21)
+	    если это женщина, то (https://www.flaticon.com/free-icon/woman_417714#term=business%20woman&page=1&position=13)
+
+
+Документы:
+
+Все они будут в формате pdf, поэтому будет иконка pdf файла (https://www.flaticon.com/free-icon/pdf_1839617#term=pdf%20file&page=1&position=21)
+
+
+Педагогический состав:
+
+Педагоги - (https://www.flaticon.com/free-icon/presentation_243278#term=teacher&page=1&position=42)
+
+
+Платные услуги:
+
+Файл pdf
+
+
+Финансово-хозяйственная деятельность:
+
+Бумага с надписями + рублевые монеты (https://www.flaticon.com/free-icon/debt_1087918#term=financial&page=1&position=4)
+
+
+Вакатные места для перевода:
+
+Иконка договоренности путем рукопожатия (https://www.flaticon.com/search?word=handshake%20agreement)
