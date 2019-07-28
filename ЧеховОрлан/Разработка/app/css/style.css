@@ -385,7 +385,47 @@ body.mobile-nav-active #mobile-nav-toggle {
   #header #logo img {
     max-height: 40px; } }
 
-.banner-area {
+.main-banner {
+  padding: 400px 0 350px;
+  background-color: #b0b0b0;
+  background-repeat: no-repeat;
+  background-position: right;
+  -webkit-background-size: cover;
+          background-size: cover;
+  position: relative; }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .main-banner {
+      padding: 320px 0;
+      background-position: -28em 2em; } }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .main-banner {
+      padding: 280px 0;
+      background-position: -23em; } }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .main-banner {
+      padding: 250px 0; } }
+  @media (max-width: 575.98px) {
+    .main-banner {
+      padding: 200px 0;
+      background-position: -30em; } }
+
+.other-page {
+  padding: 220px 0 170px; }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .other-page {
+      padding: 250px 0 100px; } }
+  @media (max-width: 575.98px) {
+    .other-page {
+      padding: 250px 0 100px; } }
+  .other-page a {
+    color: #777777;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+    .other-page a:hover {
+      color: #244cfd; }
+
+.second-banner {
   padding: 400px 0 350px;
   background-color: #b0b0b0;
   background-repeat: no-repeat;
@@ -394,14 +434,15 @@ body.mobile-nav-active #mobile-nav-toggle {
           background-size: cover;
   position: relative; }
   @media (min-width: 768px) and (max-width: 991.98px) {
-    .banner-area {
+    .second-banner {
       padding: 280px 0; } }
   @media (min-width: 576px) and (max-width: 767.98px) {
-    .banner-area {
+    .second-banner {
       padding: 250px 0; } }
   @media (max-width: 575.98px) {
-    .banner-area {
-      padding: 200px 0; } }
+    .second-banner {
+      padding: 200px 0;
+      background-position: -21em; } }
 
 .other-page {
   padding: 220px 0 170px; }
@@ -666,6 +707,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .hotline-area {
   color: #ffffff;
+  background-image: url(../images/hotline-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+          background-size: cover;
   position: relative;
   z-index: 1; }
   .hotline-area:after {
@@ -682,16 +728,62 @@ body.mobile-nav-active #mobile-nav-toggle {
     z-index: -1; }
   .hotline-area h2 {
     color: #ffffff; }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      .hotline-area h2 {
+        font-size: 36px; } }
+    @media (max-width: 575.98px) {
+      .hotline-area h2 {
+        font-size: 24px !important; } }
   .hotline-area span {
     font-size: 56px;
     font-family: "Museo Sans Cyrl 500", sans-serif;
     font-weight: 900; }
     @media (min-width: 576px) and (max-width: 767.98px) {
       .hotline-area span {
-        font-size: 45px; } }
+        font-size: 36px; } }
     @media (max-width: 575.98px) {
       .hotline-area span {
-        font-size: 32px; } }
+        font-size: 36px; } }
+
+.sail-area {
+  color: #ffffff;
+  background-image: url(../images/hotline-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  position: relative;
+  z-index: 1; }
+  .sail-area:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(36, 76, 253, 0.9)), to(rgba(21, 228, 253, 0.9)));
+    background-image: -webkit-linear-gradient(bottom left, rgba(36, 76, 253, 0.9), rgba(21, 228, 253, 0.9));
+    background-image: -o-linear-gradient(bottom left, rgba(36, 76, 253, 0.9), rgba(21, 228, 253, 0.9));
+    background-image: linear-gradient(to top right, rgba(36, 76, 253, 0.9), rgba(21, 228, 253, 0.9));
+    z-index: -1; }
+  .sail-area h1 {
+    color: #ffffff; }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      .sail-area h1 {
+        font-size: 36px; } }
+    @media (max-width: 575.98px) {
+      .sail-area h1 {
+        font-size: 36px !important; } }
+  .sail-area p {
+    font-size: 24px;
+    font-family: "Museo Sans Cyrl 500", sans-serif;
+    font-weight: 500; }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      .sail-area p {
+        font-size: 36px; } }
+    @media (max-width: 575.98px) {
+      .sail-area p {
+        font-size: 18px; } }
 
 .news-area .news-date {
   color: #ffffff;
@@ -830,8 +922,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     .welcome-area .welcome-text {
       padding: 0 !important;
       text-align: center; } }
-  .welcome-area .welcome-text h2 {
-    margin-bottom: 30px; }
   .welcome-area .welcome-text h3 {
     margin-bottom: 10px; }
 
@@ -1494,6 +1584,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
   padding: 12px 30px !important;
   cursor: pointer;
+  border: none;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }

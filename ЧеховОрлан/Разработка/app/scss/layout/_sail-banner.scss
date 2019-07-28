@@ -1,0 +1,39 @@
+.sail-area {
+    color: $light;
+    background-image: url(../images/hotline-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to top right, rgba(36, 76, 253,.9), rgba(21, 228, 253,.9));
+        z-index: -1;
+    }
+    h1 {
+        color: $light;
+        @include landscape-phone() {
+            font-size: 36px;
+        }
+        @include portrait-phone() {
+            font-size: 36px !important;
+        }
+    }
+    p {
+        font-size: 24px;
+        font-family: $body-font;
+        font-weight: 500;
+        @include landscape-phone() {
+            font-size: 36px;
+        }
+        @include portrait-phone() {
+            font-size: 18px;
+        }
+    }
+}

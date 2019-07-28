@@ -1,0 +1,40 @@
+.main-banner {
+    padding: 400px 0 350px;
+    background-color: $placeholder;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: relative;
+    @include desktop() {
+        padding: 320px 0;
+        background-position: -28em 2em;
+    }
+    @include tablet() {
+        padding: 280px 0;
+        background-position: -23em;
+    }
+    @include landscape-phone() {
+        padding: 250px 0;
+    }
+    @include portrait-phone() {
+        padding: 200px 0;
+        background-position: -30em;
+    }
+}
+
+.other-page {
+    padding: 220px 0 170px;
+    @include landscape-phone() {
+        padding: 250px 0 100px;
+    }
+    @include portrait-phone() {
+        padding: 250px 0 100px;
+    }
+    a {
+        color: $body-text;
+        @include transition(.3s);
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}

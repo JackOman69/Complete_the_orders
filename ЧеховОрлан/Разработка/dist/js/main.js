@@ -183,6 +183,20 @@
             }
         });
 
+        if(($(window).width()) < 425){
+            $('#about-pagination').removeClass('d-flex');
+            $('#about-pagination').removeClass('justify-content-between');
+            $('.short-button').addClass('col');
+            $('.short-button').addClass('align-self-center');
+            $('.short-button').addClass('text-center');
+        } else if(($(window).width()) > 425){
+            $('#about-pagination').addClass('d-flex');
+            $('#about-pagination').addClass('justify-content-between');
+            $('.short-button').removeClass('col');
+            $('.short-button').removeClass('align-self-center');
+            $('.short-button').removeClass('text-center');
+        }
+
         // Classes slider
         $('.classes-carousel').owlCarousel({
             loop: true,
