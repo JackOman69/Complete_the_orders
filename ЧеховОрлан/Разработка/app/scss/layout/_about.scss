@@ -37,7 +37,7 @@ body {
 		padding-bottom: 30px;
 	}
 	.welcome-text {
-		padding: 0 100px 0 100px;
+		padding: 0 0 0 200px;
 		border: 0;
         @include portrait-phone() {
             padding: 0 !important;

@@ -479,7 +479,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); }
 
 .welcome-img img {
-  width: 120%;
+  width: 140%;
   position: relative;
   z-index: 1; }
   @media (min-width: 768px) and (max-width: 991.98px) {
@@ -916,7 +916,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 30px; }
 
 .welcome-area .welcome-text {
-  padding: 0 100px 0 100px;
+  padding: 0 0 0 200px;
   border: 0; }
   @media (max-width: 575.98px) {
     .welcome-area .welcome-text {
