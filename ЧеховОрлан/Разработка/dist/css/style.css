@@ -407,7 +407,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   @media (max-width: 575.98px) {
     .main-banner {
       padding: 200px 0;
-      background-position: -30em; } }
+      background-position: -23em; }
+      .main-banner h1 {
+        font-size: 36px !important; } }
 
 .other-page {
   padding: 220px 0 170px; }
@@ -442,7 +444,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   @media (max-width: 575.98px) {
     .second-banner {
       padding: 200px 0;
-      background-position: -21em; } }
+      background-position: -18em; } }
 
 .other-page {
   padding: 220px 0 170px; }
@@ -707,7 +709,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .hotline-area {
   color: #ffffff;
-  background-image: url(../images/hotline-2.jpg);
+  background-image: url(../images/hotline.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -747,7 +749,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .sail-area {
   color: #ffffff;
-  background-image: url(../images/hotline-2.jpg);
+  background-image: url(../images/hotline.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -783,7 +785,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         font-size: 36px; } }
     @media (max-width: 575.98px) {
       .sail-area p {
-        font-size: 18px; } }
+        font-size: 17px; } }
 
 .news-area .news-date {
   color: #ffffff;

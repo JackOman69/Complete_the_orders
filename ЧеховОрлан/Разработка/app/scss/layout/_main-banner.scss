@@ -18,7 +18,10 @@
     }
     @include portrait-phone() {
         padding: 200px 0;
-        background-position: -30em;
+        background-position: -23em;
+        h1 {
+            font-size: 36px!important;
+        }
     }
 }
 
