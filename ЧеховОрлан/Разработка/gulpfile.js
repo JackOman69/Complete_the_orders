@@ -37,7 +37,8 @@ gulp.task('scripts', function() {
 			'app/libs/js/jquery.nice-select.min.js',
 			'app/libs/js/owl.carousel.min.js',
 			'app/libs/js/superfish.min.js',
-			'app/libs/js/wow.min.js'
+			'app/libs/js/wow.min.js',
+			'app/libs/js/jquery.mask.min.js'
 		])
 		.pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
 		.pipe(uglify()) // Сжимаем JS файл

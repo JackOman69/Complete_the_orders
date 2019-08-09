@@ -85,34 +85,37 @@
         });
 
 
-            $(document).ready(function() {
+        $(document).ready(function() {
 
-            $('html, body').hide();
+        $('html, body').hide();
 
-                if (window.location.hash) {
+            if (window.location.hash) {
 
-                setTimeout(function() {
+            setTimeout(function() {
 
-                $('html, body').scrollTop(0).show();
+            $('html, body').scrollTop(0).show();
 
-                $('html, body').animate({
+            $('html, body').animate({
 
-                scrollTop: $(window.location.hash).offset().top
+            scrollTop: $(window.location.hash).offset().top
 
-                }, 1000)
+            }, 1000)
 
-                }, 0);
+            }, 0);
 
-                }
+            }
 
-                else {
+            else {
 
-                $('html, body').show();
+            $('html, body').show();
 
-                }
+            }
 
-            });
+        });
         
+        $(document).ready(function() {
+            $(".input_phone").mask("+7(000)000-00-00");
+        });
 
         // $(document).ready(function() {
         //     document.getElementByClassName('menu-dropdown').classList.add('fas');
