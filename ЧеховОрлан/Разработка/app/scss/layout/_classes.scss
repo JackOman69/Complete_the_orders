@@ -16,7 +16,6 @@
 }
 
 .classes-carousel {
-    height: 400px;
     .single-patient {
         padding: 20px 150px 40px 150px;
     }
@@ -31,7 +30,7 @@
     .owl-dots {
         display: block !important;
         position: absolute;
-        bottom: -50px;
+        bottom: -70px;
         left: 50%;
         @include translate(-50%,0);
         .owl-dot {

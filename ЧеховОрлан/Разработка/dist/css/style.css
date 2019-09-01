@@ -601,11 +601,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .students-area .single-student {
   background: #f9f9fd;
-  padding: 40px 40px 20px 40px;
+  padding: 0 30px 0 30px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s;
-  margin-top: 90px; }
+  transition: 0.5s; }
   .students-area .single-student:hover {
     background: #ffffff;
     -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
@@ -1482,29 +1481,30 @@ body.mobile-nav-active #mobile-nav-toggle {
       .social-links ul li a:hover {
         color: #244cfd; }
 
-.classes-carousel {
-  height: 400px; }
-  .classes-carousel .single-patient {
-    padding: 20px 150px 40px 150px; }
-  .classes-carousel .owl-item img {
-    display: inline-block; }
-  .classes-carousel .owl-nav {
-    display: none; }
-  .classes-carousel .owl-dots {
-    display: block !important;
-    position: absolute;
-    bottom: -50px;
-    left: 50%;
-    -webkit-transform: translate(-50%, 0);
-    -ms-transform: translate(-50%, 0);
-    transform: translate(-50%, 0); }
-    .classes-carousel .owl-dots .owl-dot {
-      width: 15px;
-      height: 4px;
-      background: #c6d0d4;
-      margin: 0 7px; }
-    .classes-carousel .owl-dots .owl-dot.active {
-      background: #244cfd; }
+.classes-carousel .single-patient {
+  padding: 20px 150px 40px 150px; }
+
+.classes-carousel .owl-item img {
+  display: inline-block; }
+
+.classes-carousel .owl-nav {
+  display: none; }
+
+.classes-carousel .owl-dots {
+  display: block !important;
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0); }
+  .classes-carousel .owl-dots .owl-dot {
+    width: 15px;
+    height: 4px;
+    background: #c6d0d4;
+    margin: 0 7px; }
+  .classes-carousel .owl-dots .owl-dot.active {
+    background: #244cfd; }
 
 @font-face {
   font-family: 'Museo Sans Cyrl 500';
@@ -1639,7 +1639,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 130px 0 200px; }
 
 .section-top {
-  margin-bottom: 80px; }
+  margin-bottom: 60px; }
   .section-top .style-change {
     color: #244cfd;
     font-style: italic; }

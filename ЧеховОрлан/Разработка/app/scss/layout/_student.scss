@@ -1,9 +1,8 @@
 .students-area {
     .single-student  {
         background: $dark;
-        padding: 40px 40px 20px 40px;
+        padding: 0 30px 0 30px;
         @include transition(.5s);
-        margin-top: 90px;
         &:hover {
             background: $light;
             @include box-shadow(0 5px 20px $shadow);
