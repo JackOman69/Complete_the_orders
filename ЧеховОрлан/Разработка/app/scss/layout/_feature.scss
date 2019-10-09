@@ -4,6 +4,15 @@
         padding-bottom: 5px;
     }
 }
+
+.feature-area { 
+    .row:last-child {
+        @include portrait-phone() {
+            justify-content: center !important;
+        }
+    }
+ }
+
 .single-feature {
     background: $dark;
     @include border-radius(5px);

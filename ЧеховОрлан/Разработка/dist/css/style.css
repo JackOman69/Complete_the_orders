@@ -466,6 +466,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 .service-area .row {
   padding-bottom: 5px; }
 
+@media (max-width: 575.98px) {
+  .feature-area .row:last-child {
+    -webkit-box-pack: center !important;
+    -webkit-justify-content: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important; } }
+
 .single-feature {
   background: #f9f9fd;
   -webkit-border-radius: 5px;
@@ -901,6 +908,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .row .template-btn {
   padding: 12px 60px !important; }
+
+@media (max-width: 575.98px) {
+  .row .pagination-btn {
+    text-align: center;
+    width: 90%; } }
 
 .pagination {
   margin-top: 120px; }
@@ -1471,8 +1483,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .social-links ul {
   margin-top: 5px; }
   .social-links ul li {
-    display: inline;
-    margin-left: 15px; }
+    display: inline; }
     .social-links ul li a {
       color: #777777;
       -webkit-transition: all 0.3s ease-in-out;

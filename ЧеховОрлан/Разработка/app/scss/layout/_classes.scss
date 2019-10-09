@@ -3,7 +3,6 @@
         margin-top: 5px;
         li {
             display: inline;
-            margin-left: 15px;
             a {
                 color: $body-text;
                 @include transition(all .3s ease-in-out)
