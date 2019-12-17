@@ -1,24 +1,30 @@
 .main-banner {
     padding: 400px 0 350px;
-    background-color: $placeholder;
+    background: white;
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
     position: relative;
+    @include desktop-large() {
+        padding: 360px 0;
+        background-size: 100%;
+    }
     @include desktop() {
         padding: 320px 0;
-        background-position: -28em 2em;
+        background-size: 150%;
+        background-position: -20em;
     }
     @include tablet() {
         padding: 280px 0;
-        background-position: -23em;
+        background-size: 150%;
+        background-position: -5em;
     }
     @include landscape-phone() {
         padding: 250px 0;
     }
     @include portrait-phone() {
         padding: 200px 0;
-        background-position: -23em;
+        background-position: -16.2em;
         h1 {
             font-size: 36px!important;
         }

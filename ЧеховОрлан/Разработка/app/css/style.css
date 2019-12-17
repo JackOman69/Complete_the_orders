@@ -296,14 +296,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .header-top {
   padding: 10px 0;
-  background: rgba(255, 255, 255, 0.8);
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#244cfd), to(#15e4fd));
+  background-image: -webkit-linear-gradient(bottom left, #244cfd, #15e4fd);
+  background-image: -o-linear-gradient(bottom left, #244cfd, #15e4fd);
+  background-image: linear-gradient(to top right, #244cfd, #15e4fd);
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1; }
   .header-top h6 {
-    margin-top: 6px; }
+    margin-top: 6px;
+    color: white; }
     .header-top h6 i {
       font-size: 18px;
       position: relative;
@@ -324,7 +328,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       display: inline;
       margin-left: 15px; }
       .header-top .social-links ul li a {
-        color: #777777;
+        color: white;
         -webkit-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
@@ -333,6 +337,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #header {
   padding: 14px 0;
+  background: white;
   position: fixed;
   left: 0;
   top: 48px;
@@ -341,6 +346,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   -o-transition: all 0.5s;
   transition: all 0.5s;
   z-index: 997; }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    #header #logo {
+      width: 190px; } }
   @media (min-width: 768px) and (max-width: 991.98px) {
     #header {
       top: 0; } }
@@ -387,27 +395,36 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .main-banner {
   padding: 400px 0 350px;
-  background-color: #b0b0b0;
+  background: white;
   background-repeat: no-repeat;
   background-position: right;
   -webkit-background-size: cover;
           background-size: cover;
   position: relative; }
+  @media (min-width: 1200px) and (max-width: 1440px) {
+    .main-banner {
+      padding: 360px 0;
+      -webkit-background-size: 100% 100%;
+              background-size: 100%; } }
   @media (min-width: 992px) and (max-width: 1199.98px) {
     .main-banner {
       padding: 320px 0;
-      background-position: -28em 2em; } }
+      -webkit-background-size: 150% 150%;
+              background-size: 150%;
+      background-position: -20em; } }
   @media (min-width: 768px) and (max-width: 991.98px) {
     .main-banner {
       padding: 280px 0;
-      background-position: -23em; } }
+      -webkit-background-size: 150% 150%;
+              background-size: 150%;
+      background-position: -5em; } }
   @media (min-width: 576px) and (max-width: 767.98px) {
     .main-banner {
       padding: 250px 0; } }
   @media (max-width: 575.98px) {
     .main-banner {
       padding: 200px 0;
-      background-position: -23em; }
+      background-position: -16.2em; }
       .main-banner h1 {
         font-size: 36px !important; } }
 
